@@ -1,0 +1,118 @@
+*{
+    margin: 20px;
+    margin-top: 0;
+}
+body{
+ background-color: lightyellow;
+}
+
+#textoN{
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+#TITULO{
+    display: flex;
+    margin: auto;
+    width: 820px;
+}
+
+p{
+    text-align: justify;
+}
+
+#textoM{
+    color: goldenrod;
+}
+
+#YACO{
+    display: flex;
+    margin: auto;
+    width: 300px;
+}
+
+.center{
+    text-align: center;
+}
+
+#texto{
+    font-size: 20px;
+}
+
+#personajes{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#secundarios{
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#secun{
+    font-size: 17px;
+    color: midnightblue;
+}
+
+#terciarios{
+    font-size: 17px;
+    color: darkgoldenrod;
+}
+
+#TERCI{
+    color: darkcyan
+}
+
+#all{
+    float: right;
+    width: 700px;
+}
+
+.slider {
+    width: 110%;
+    margin: auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 110%;
+
+    animation: cambio 20s infinite;
+    animation-direction: alternate ;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    width: 110%;
+    height: 80%;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    25% { margin-left: 0; }
+
+    45% { margin-left:  -100%;}
+    70% { margin-left: -100%;}
+
+   80% { margin-left: -200%;}
+    100% { margin-left: -200%;}
+
+}
+
+#vid{
+    font-size: 30px;
+    color: firebrick;
+}
+.videos{
+    margin: auto;
+    text-align: center;
+}
